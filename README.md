@@ -15,6 +15,14 @@ flowchart TD
 
 ---
 
+## Project's Output
+
+<p align="center">
+  <img src="Serial Monitor.png" alt="Image 1" width="95%"/>
+</p>
+
+---
+
 ## Features  
 - Reads **temperature and humidity** from a DHT11 sensor.  
 - Sends sensor data to **ThingSpeak** for cloud storage & visualization.  
