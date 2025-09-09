@@ -18,7 +18,8 @@ flowchart TD
 ## Project's Output
 
 <p align="center">
-  <img src="Serial Monitor.png" alt="Image 1" width="95%"/>
+  <img src="Serial Monitor.png" alt="Image 1" width="45%"/>
+  <img src="ThingSpeak.png" alt="Image 2" width="45%"/>  
 </p>
 
 ---
