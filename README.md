@@ -3,6 +3,8 @@
 An **IoT-based weather monitoring system** built with an **ESP8266**, **DHT11 sensor**, **ThingSpeak Cloud**, and the **OpenWeatherMap API**.  
 The project collects local sensor data (temperature & humidity) and combines it with real-time online weather data for visualization on ThingSpeak.  
 
+## Project Flow  
+
 ```mermaid
 flowchart TD
     A[DHT11 Sensor] -->|Temp & Humidity| B[ESP8266 NodeMCU]
@@ -11,7 +13,15 @@ flowchart TD
     B -->|Uploads API Data| C
     C --> E[Visualization Dashboard]
     B --> F[Serial Monitor]
-```
+
+    %% Node Styles
+    style A fill:#ffcccb,stroke:#b22222,stroke-width:2px,color:#000
+    style B fill:#87cefa,stroke:#1e90ff,stroke-width:2px,color:#000
+    style C fill:#90ee90,stroke:#228b22,stroke-width:2px,color:#000
+    style D fill:#f0e68c,stroke:#b8860b,stroke-width:2px,color:#000
+    style E fill:#dda0dd,stroke:#800080,stroke-width:2px,color:#000
+    style F fill:#d3d3d3,stroke:#696969,stroke-width:2px,color:#000
+
 
 ---
 
